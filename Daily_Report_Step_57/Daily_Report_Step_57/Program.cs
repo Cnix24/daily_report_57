@@ -33,6 +33,8 @@ namespace Daily_Report_Step_57
             Console.Write("How many hours did you study today?");
             userInput = Console.ReadLine();
             byte courseHours = Convert.ToByte(userInput);
+
+            Console.WriteLine("Thank you for your answers! An instructor will respond to this shortly. Have a great day!");
         }
     }
 }
